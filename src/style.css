@@ -1,0 +1,29 @@
+#con{
+    width : 50vw;
+    height : 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: green;
+}
+.row{
+    display: flex;
+    flex : 1
+}
+
+.col{
+    display: flex;
+    flex : 1;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-icons{
+    font-size: 80px;
+    color:white;
+}
+
+.win{
+    background-color: red!important;
+}
